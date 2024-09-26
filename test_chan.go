@@ -1,5 +1,7 @@
 package main
 
+//指定数量协程
+
 import (
     "fmt"
     "sync"
@@ -23,7 +25,7 @@ func main() {
             // 协程的具体逻辑
             uuid := uuid.New()
             fmt.Printf("start goroutine ID: %v\n", uuid)
-			time.Sleep(time.Duration(i) * 2000 * time.Millisecond)
+			//time.Sleep(time.Duration(i) * 2000 * time.Millisecond)
             fmt.Printf("end goroutine ID(%v) %d %v\n", uuid, i, time.Now())
         }(i)
     }

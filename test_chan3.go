@@ -9,9 +9,13 @@ func main() {
 
 	go func() {
 		ch <- true
+		ch <- false
 		close(ch)
 	}()
 
+	for value := range ch {
+		fmt.Println("获取到值:", value)
+	}
 	value, ok := <-ch
 	if ok {
 		str, ok := value.(bool)

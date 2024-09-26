@@ -20,6 +20,15 @@ func f1(s FileMd5Info) FileMd5Info {
 	return s
 }
 
+func f3(s *[]FileMd5Info) {
+	*s = append(*s, FileMd5Info{a: "1234", b: "2345"})
+}
+
+func f4(s []FileMd5Info) {
+	s[0] = FileMd5Info{a: "14", b: "25"}
+	//s = append(s, FileMd5Info{a: "1234", b: "2345"})
+}
+
 func main() {
 	s := FileMd5Info{a: "1234", b: "2345"}
 	var a []FileMd5Info
@@ -27,4 +36,6 @@ func main() {
 	s = f1(s)
 	a = append(a, s)
 	fmt.Printf("%v\n", a)
+	f4(a)
+	fmt.Printf("after %v\n", a)
 }

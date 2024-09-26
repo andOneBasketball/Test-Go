@@ -7,6 +7,7 @@ import (
 
 func main() {
 	var name = flag.String("name", "defaultName", "Name to greet")
+	flag.Parse()
 	fmt.Println(name)
 	fmt.Println(*name)
 	a := 1

@@ -1,0 +1,4 @@
+mode: set
+github.com/go-delve/delve/cmd/dlv/splitString/split.go:7.41,10.20 3 1
+github.com/go-delve/delve/cmd/dlv/splitString/split.go:17.5,18.15 2 1
+github.com/go-delve/delve/cmd/dlv/splitString/split.go:10.20,15.6 4 1

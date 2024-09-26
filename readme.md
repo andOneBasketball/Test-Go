@@ -1,3 +1,6 @@
+# 项目介绍
+记录个人在golang研究过程中的一些尝试，以及框架、工具、踩坑积累
+
 ## 热点缓存
 github.com/hashicorp/golang-lru(1.0.2)、groupcache
 
