@@ -4,7 +4,7 @@ import "fmt"
 
 type Sc struct {
 	product string
-	sum int
+	sum     int
 }
 
 func sum(s []int, c chan Sc, product string) {
@@ -20,6 +20,7 @@ func main() {
 	s := []int{7, 2, 8, -9, 4, 0}
 
 	c := make(chan Sc, 2)
+	//c := make(chan Sc)
 	go sum(s[:len(s)/2], c, "s")
 	go sum(s[len(s)/2:], c, "a")
 	for {
@@ -35,7 +36,6 @@ func main() {
 		}
 	}
 
-	
 	// fmt.Println(x[0].sum, y[0].sum, x[0].product, y[0].product, "\n")
 	//fmt.Println(x, y, "\n")
 	//fmt.Println(x.sum, y.sum, x.product, y.product, "\n")
