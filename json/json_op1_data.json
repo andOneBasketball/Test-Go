@@ -1,0 +1,174 @@
+[{
+    "id": 1,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 1,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 2,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+},
+{
+    "id": 2,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 2,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 3,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+},
+{
+    "id": 3,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 3,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 4,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "/*  */mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+},
+{
+    "id": 4,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 4,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 5,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+},
+{
+    "id": 5,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 5,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 6,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+},
+{
+    "id": 6,
+    "type": 2,
+    "subType": 0,
+    "note": "鱼竿",
+    "enNameText": "FIshing Rod",
+    "grade": 6,
+    "mainAttributeLevel": "6#8   ",
+    "mainAttributeText": "Double the probability of collecting items.#Raise the upper limit of fishing weight.",
+    "attributeValue": "1-20#2-1000",
+    "ascensionItemId": 0,
+    "iconResource": "fishingRod_1",
+    "sceneResource": "rod_1",
+    "timeLimit": 0,
+    "mainAttributeDataList": [
+        {
+            "mainAttributeLevel": 6,
+            "mainAttributeText": "Double the probability of collecting items.",
+            "mainAttributeType": 1,
+            "attributeValue": 20
+        },
+        {
+            "mainAttributeLevel": 8,
+            "mainAttributeText": "Raise the upper limit of fishing weight.",
+            "mainAttributeType": 2,
+            "attributeValue": 1000
+        }
+    ]
+}]
