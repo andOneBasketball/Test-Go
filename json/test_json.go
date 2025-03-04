@@ -7,15 +7,15 @@ import (
 )
 
 type ruleInfo struct {
-	ACheck        map[string][]string           `bson:"a_check" json:"a_check"`
-	BCheck        map[string]interface{}        `bson:"b_check" json:"b_check"`
-	Dd			  string				        `json: dd`
+	ACheck map[string][]string    `bson:"a_check" json:"a_check"`
+	BCheck map[string]interface{} `bson:"b_check" json:"b_check"`
+	Dd     string                 `json: dd`
 }
 
 type Person struct {
-    Name string    `json:"name"`
-    Age  int       `json:"age"`
-	Ff   string    `json:"ff"`
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+	Ff   string `json:"ff"`
 }
 
 // 判断字符串是否在字符串数组内
@@ -49,6 +49,11 @@ func main() {
 			fmt.Println("12354\n")
 		}
 	}
+	fmt.Println(submodules.BCheck)
+	for key, value := range submodules.BCheck {
+		fmt.Println(key, value, reflect.TypeOf(key), reflect.TypeOf(value))
+	}
+
 	if len(submodules.Dd) == 0 {
 		fmt.Println(submodules.Dd, reflect.TypeOf(submodules.Dd))
 	}
@@ -57,9 +62,9 @@ func main() {
 	var p Person
 	p.Name = "Alice"
 	p.Age = 30
-    b, err := json.Marshal(p)
-    if err != nil {
-        fmt.Println("error:", err)
-    }
-    fmt.Println(string(b), reflect.TypeOf(b))
+	b, err := json.Marshal(p)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
+	fmt.Println(string(b), reflect.TypeOf(b))
 }

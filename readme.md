@@ -14,7 +14,7 @@ go tool pprof -inuse_space -cum -svg hello_process_alloc_120.conf > alloc_300.sv
 
 defer debug.FreeOSMemory() 能手动触发内存回收，但对CPU消耗较大
 
-
+http://localhost:6060/debug/pprof/
 
 
 ## 调试

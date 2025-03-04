@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"time"
 )
-
 
 func f(i *int, beginTime time.Time) {
 	syncRemarkCostTime := time.Now().Sub(beginTime).Seconds()
@@ -23,5 +23,7 @@ func main() {
 	i := 4
 	f(&i, time.Now())
 	fmt.Printf("%d\n", i)
-}
 
+	var aa int64 = 100
+	log.Println(float64(aa))
+}

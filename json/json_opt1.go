@@ -67,4 +67,12 @@ func main() {
 	for _, obj := range t {
 		log.Printf("id: %d, name: %s", obj.Id, obj.Name)
 	}
+
+	value := ""
+	var configDataValue interface{}
+	err := json.Unmarshal([]byte(value), &configDataValue)
+	if err != nil {
+		log.Printf("json Unmarshal error: %s", err)
+	}
+	log.Printf("configDataValue: %v", configDataValue)
 }

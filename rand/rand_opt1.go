@@ -11,6 +11,10 @@ func main() {
 		fmt.Println(rand.Intn(100)) // 不调用 rand.Seed，生成的序列固定
 	}
 
+	for i := 0; i < 5; i++ {
+		fmt.Println(rand.Intn(1)) // 不调用 rand.Seed，生成的序列固定
+	}
+
 	fmt.Println("\nWith rand.Seed:")
 	rand.Seed(1) // 显式设置种子为 1
 	for i := 0; i < 5; i++ {

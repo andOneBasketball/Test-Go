@@ -22,6 +22,6 @@ func main() {
 		fmt.Printf("k:%v v:%v\n", k, v)
 		b[k] = "31543"
 	}
-	fmt.Printf("%#v\n", b)
+	fmt.Printf("%#v, len:%d\n", b, len(b))
 }
 

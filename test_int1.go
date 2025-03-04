@@ -8,4 +8,10 @@ func main() {
 	a, b = b, a
 
 	fmt.Println(a, b, c)
+
+	aa := []int{1, 3, 4}
+	fmt.Println(aa)
+	var bb []int
+	bb = aa
+	fmt.Println(bb)
 }
