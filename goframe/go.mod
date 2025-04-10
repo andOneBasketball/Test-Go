@@ -2,7 +2,7 @@ module goframe_opt
 
 go 1.23.2
 
-require github.com/gogf/gf/v2 v2.8.1
+require github.com/gogf/gf/v2 v2.6.4
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect

@@ -13,8 +13,10 @@ func main() {
 		fmt.Println(<-ch)
 	*/
 
-	var arr []int
-	arr[1] = 2
-	fmt.Println(arr)
+	var ch chan *int
+	ch = make(chan *int, 10)
+	ch <- new(int)
+	close(ch)
+	fmt.Println(len(ch))
 
 }
