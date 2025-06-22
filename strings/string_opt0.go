@@ -12,7 +12,7 @@ func joinLinks(link ...string) string {
 
 func main() {
 	result := joinLinks("https://example.com", "/path", "?query=value")
-	fmt.Println(result) // 输出: https://example.com/path?query=value
+	fmt.Println(result)
 	var aa int64 = 100
 	fmt.Println(fmt.Sprintf("%d", aa))
 
@@ -23,4 +23,10 @@ func main() {
 	} else {
 		fmt.Println("转换成功:", num)
 	}
+
+	bbR := []rune(bb)
+	bbR[1] = bbR[1] + 1
+	bb = string(bbR)
+
+	fmt.Printf("%c %v\n", bb[1], bb)
 }
